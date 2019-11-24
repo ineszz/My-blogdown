@@ -1,9 +1,0 @@
-name: "ineszz-website"
-navbar:
-  title: "ineszz website"
-  left:
-    - text: "Acasa"
-      href: index.html
-    - text: "Despre"
-      href: about.html
-      name: "ineszz-website"
