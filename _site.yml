@@ -1,16 +1,16 @@
-name: "ineszz-website"
+name: "Pagina Personala cu R"
 output_dir: "."
 navbar:
-  title: "ineszz website"
+  title: "Pagina Personala"
   left:
     - text: "Acasa"
       href: index.html
     - text: "Despre"
       href: about.html
-      name: "ineszz-website"
+      name: "Pagina personala"
   right:
     - icon: fa-github fa-lg
-      href: http://github.com/zabore
+      href: http://github.com/ineszz
     - icon: fa-twitter fa-lg
       href: https://twitter.com/inesz
     - icon: fa-linkedin fa-lg

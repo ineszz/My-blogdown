@@ -1,5 +1,5 @@
 ---
-title: "My ineszz Website"
+title: "My ineszz!"
 ---
 
 Hello, all!

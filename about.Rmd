@@ -1,5 +1,5 @@
 ---
-title: "Despre ineszz"
+title: "Despre"
 ---
 
 Aceste este un site demo.
