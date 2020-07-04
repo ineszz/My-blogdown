@@ -24,7 +24,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Nav links in the side bar
   [[params.navlinks]]
   name = "Home"
-  url = "post/"
+  url = "blog/"
   home = true
 
   [[params.navlinks]]
