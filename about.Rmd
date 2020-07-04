@@ -1,5 +1,0 @@
----
-title: "Despre"
----
-
-Aceste este un site demo.

@@ -1,10 +1,3 @@
 ---
-title: "My ineszz!"
+site: blogdown:::blogdown_site
 ---
-
-Hello, all!
-
-Acesta este un site simplu construit cu Markdown in R!
-Pentru mai multe informatii despre R Markdown websites, citeste aici: https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
-
-Pentru site-ur mai complexe sau bloguri, poti folosi **blogdown** , detalii aici: https://github.com/rstudio/blogdown.

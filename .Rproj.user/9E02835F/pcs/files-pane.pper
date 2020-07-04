@@ -1,9 +1,13 @@
 {
-    "path" : "~/GitHub/ineszz.github.io",
-    "sortOrder" : [
+    "path": "~/R_Scripts/R-Hugo",
+    "sortOrder": [
         {
-            "ascending" : true,
-            "columnIndex" : 2
+            "columnIndex": 1,
+            "ascending": false
+        },
+        {
+            "columnIndex": 2,
+            "ascending": true
         }
     ]
 }
