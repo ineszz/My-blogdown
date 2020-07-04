@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statisticile lui Ines</title>
+    <link>https://ineszz.rbind.io/</link>
+    <description>Recent content on Statisticile lui Ines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Jul 2020 18:25:22 +0530</lastBuildDate>
+    
+	<atom:link href="https://ineszz.rbind.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Primul articol scris din R</title>
+      <link>https://ineszz.rbind.io/post/primul-post-r-blogdown/</link>
+      <pubDate>Sat, 04 Jul 2020 18:25:22 +0530</pubDate>
+      
+      <guid>https://ineszz.rbind.io/post/primul-post-r-blogdown/</guid>
+      <description>&lt;p&gt;Acesta este primul articol R. Vor urma mai multe.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
