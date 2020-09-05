@@ -12,6 +12,3 @@ In urma [intalnirii 10](https://www.meetup.com/rladies-bucharest/events/27102066
 * Mentor [Scratch](https://scratch.mit.edu/users/ineszz/)
 * Voluntar in proiecte care promoveaza roluri ce implica analiza datelor, diversitatea si incluziunea.
 
-# ![This is me][1]
-# 
-# [1]: /img/about.jpg
