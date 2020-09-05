@@ -2,7 +2,7 @@
 title: Un ritual de blogging saptamanal
 author: ''
 date: '2020-08-12'
-draft: yes
+draft: false
 image: ""
 showonlyimage: no
 ---
