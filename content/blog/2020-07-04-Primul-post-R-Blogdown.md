@@ -1,8 +1,8 @@
 ---
 date: "2020-07-04T18:25:22+05:30"
 draft: false
-image: ""
-showonlyimage: false
+showonlyimage: true
+image: "img/portfolio/1Primul-icon1.jpg"
 title: Primul articol scris din R
 weight: 0
 ---

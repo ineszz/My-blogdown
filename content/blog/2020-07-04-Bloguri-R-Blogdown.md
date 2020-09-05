@@ -1,8 +1,8 @@
 ---
 date: "2020-07-05T19:44:32+05:30"
 draft: false
-image: ""
 showonlyimage: false
+image: "img/portfolio/AwesomeR-icon1.jpg"
 title: Awesome R Blog's
 weight: 2
 ---
@@ -22,5 +22,6 @@ Printre primele bloguri R descoperite.
   8. https://drmowinckels.io/
   9. https://www.frick.ws/
  10. http://www2.stat.duke.edu/~mc301/
+ 11. https://amber.rbind.io/
 
 > To be continued
