@@ -2,7 +2,7 @@
 title: Retrospectiva primului an R-Ladies Bucharest
 author: ''
 date: "2020-07-30T00:06:32+05:30"
-draft: true
+draft: True
 image: ""
 showonlyimage: false
 ---
@@ -29,11 +29,11 @@ Oficial, am inceput demersurile de ziua Europei, pe 8 Mai.
 R-Ladies este orice femeie sau tanara care doreste sa foloseasca R pentru analize statistice, programarea de aplicatii sau contruirea rapida de MVPs in domeniul data science. 
 Este acea comunitate sigura, deschisa tuturor participantilor si orientata spre invatare continuua.
 Este locul in care poti intreba de o mie de ori 
-*'De ce R?',
-*'Cum automatizez cu R raportul saptamanal din Excel?',
-*'Am un fisier imens si nu stiu cum sa-l curat',
-*'Vreau sa estimez un esantion, dar nu stiu de unde sa incep', 
-*' Vreau sa construiesc un raport RMarkdown, dar nu reusesc sa sumarizez corect..' etc.
+* `De ce R?`,
+* `Cum automatizez cu R raportul saptamanal din Excel?`,
+* `Am un fisier imens si nu stiu cum sa-l curat`,
+* `Vreau sa estimez un esantion, dar nu stiu de unde sa incep`, 
+* `Vreau sa construiesc un raport RMarkdown, dar nu reusesc sa sumarizez corect..` etc.
 
 #### Este R-Ladies doar R-Ladies?
 
@@ -46,7 +46,10 @@ Focusul nostru principal ramane insa cresterea ponderii vocilor feminine romanes
 * o comunitate faina cu 155 membri pe meetup
 * 10 intalniri lunare
 * 7 voci feminine, din care 6 voci feminine noi
-* 1 participant din Romania in cadrul proiectului globam Twitter Curatios - WeAreRLadies
+* 1 meetup transmis pe [youtube](https://youtu.be/f6kyYjCVAs0) ( 175+ views)
+* 1 [participant](https://twitter.com/WeAreRLadies/status/1287381657625022464?s=20) din Romania in cadrul proiectului global Twitter Curatios - [WeAreRLadies](https://twitter.com/WeAreRLadies)
+
+
 
 #### Care sunt planurile pentru viitor?
 

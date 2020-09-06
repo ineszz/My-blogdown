@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>404 Page not found</title>
+<title>Cum construiesti un model in R</title>
 <meta name="description" content="&lt;Numbers have an important story to tell. However, they rely on you to give them a clear and convincing voice.&gt; ~ Stephen Few">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -115,8 +115,34 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-        <h1>Page not found</h1>
-        <p><a href="/">Return to the home page</a>.</p>
+         <h1>Cum construiesti un model in R</h1>
+         <p>Un model in R se construieste similar oricarei alte tehnologii, desigur, cu mici specificitati datorate limbajului.</p>
+<p>In primul rand, avem nevoie sa incarcam in memorie librariile care includ tehnicile si algoritmii utili realizarii unui model. 
+Pentru acest articol, voi folosi un exemplu simplu in care voi apela datele din datesetul iris si librariile caret, ggplot.</p>
+<blockquote>
+<p>Daca doriti sa folositi alt, dataset apelati in consola 
+<code>data()</code></p>
+</blockquote>
+<pre><code class="language-{r}" data-lang="{r}"># Incarcam librariile
+library(ggplot2)
+library(caret)
+</code></pre><pre><code class="language-{r}" data-lang="{r}">data(&quot;iris&quot;)
+str(iris)
+</code></pre><p>Hai sa construim un model</p>
+<p>Incercam sa estimam latimea petalelor folosind lungimea lor</p>
+<pre><code class="language-{r}" data-lang="{r}">model &lt;- lm(Petal.Length ~ Petal.Width, data = iris)
+</code></pre><p>Sa vizualizam modelul</p>
+<pre><code class="language-{r}" data-lang="{r}">ggplot(data = iris, aes(x = Petal.Width, y = Petal.Length)) + geom_point(aes(color = Species)) + stat_smooth(method = &quot;lm&quot;)
+</code></pre><p>Salvam modelul folosind saveRDS</p>
+<pre><code class="language-{r}" data-lang="{r}">saveRDS(model, &quot;model_iris.RDS&quot;)
+</code></pre><p>Acum putem citi modelul direct din fisier, salvand timpul pentru pregatirea modelului</p>
+<pre><code class="language-{r}" data-lang="{r}">model_salvat &lt;- readRDS(&quot;model_iris.RDS&quot;)
+</code></pre><p>Putem verifica, prin comparatie, daca modelul salvat este similar celui construit.</p>
+<pre><code class="language-{r}" data-lang="{r}">print(model$coefficients)
+print(model_salvat$coefficients)
+</code></pre><p>The end.</p>
+
+         
       </div>
     </div>
   </div>

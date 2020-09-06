@@ -2,39 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statisticile lui Ines</title>
-    <link>https://ineszz.rbind.io/blog/</link>
+    <link>/blog/</link>
     <description>Recent content on Statisticile lui Ines</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ineszz.rbind.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Awesome R Blog&#39;s</title>
-      <link>https://ineszz.rbind.io/blog/2020/awesome-r-blogs/</link>
+      <link>/blog/2020/awesome-r-blogs/</link>
       <pubDate>Sun, 05 Jul 2020 19:44:32 +0530</pubDate>
       
-      <guid>https://ineszz.rbind.io/blog/2020/awesome-r-blogs/</guid>
+      <guid>/blog/2020/awesome-r-blogs/</guid>
       <description>&lt;p&gt;Cateva din blogurile care imi plac, unele sunt realizate cu R Blogdown.&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>Cum construiesti un model in R</title>
+      <link>/blog/2020/cum-construiesti-un-model-in-r/</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2020/cum-construiesti-un-model-in-r/</guid>
+      <description>Un model in R se construieste similar oricarei alte tehnologii, desigur, cu mici specificitati datorate limbajului.
+In primul rand, avem nevoie sa incarcam in memorie librariile care includ tehnicile si algoritmii utili realizarii unui model. Pentru acest articol, voi folosi un exemplu simplu in care voi apela datele din datesetul iris si librariile caret, ggplot.
+ Daca doriti sa folositi alt, dataset apelati in consola data()
+ # Incarcam librariilelibrary(ggplot2)library(caret)data(&amp;quot;iris&amp;quot;)str(iris)Hai sa construim un model</description>
+    </item>
+    
+    <item>
       <title>Un ritual de blogging saptamanal</title>
-      <link>https://ineszz.rbind.io/blog/2020/un-ritual-de-blogging-saptamanal/</link>
+      <link>/blog/2020/un-ritual-de-blogging-saptamanal/</link>
       <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ineszz.rbind.io/blog/2020/un-ritual-de-blogging-saptamanal/</guid>
+      <guid>/blog/2020/un-ritual-de-blogging-saptamanal/</guid>
       <description>&lt;p&gt;De cativa ani, imi propun sa-mi acord timp si sa incep sa scriu lucruri interesante. Pentru ca de multe ori mi s-a spus, intr-o forma sau alta, &amp;ldquo;ah, da, tu postai niste chestii foarte interesante pe Linkedin&amp;rdquo;, mi-am propus sa procrestinez mai putin despre acest obicei si sa incep sa fac ceva in legatura cu el.&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>Retrospectiva primului an R-Ladies Bucharest</title>
+      <link>/blog/2020/retrospectiva-primului-an-r-ladies-bucharest/</link>
+      <pubDate>Thu, 30 Jul 2020 00:06:32 +0530</pubDate>
+      
+      <guid>/blog/2020/retrospectiva-primului-an-r-ladies-bucharest/</guid>
+      <description>&lt;p&gt;S-a incheiat sezonul 2019/2020 de intalniri &lt;a href=&#34;https://www.meetup.com/rladies-bucharest/&#34;&gt;R-Ladies&lt;/a&gt; in Bucuresti. Scriem azi retrospectiva pentru a porni la drum in sezonul urmatorul.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Primul articol scris din R</title>
-      <link>https://ineszz.rbind.io/blog/2020/primul-articol-scris-din-r/</link>
+      <link>/blog/2020/primul-articol-scris-din-r/</link>
       <pubDate>Sat, 04 Jul 2020 18:25:22 +0530</pubDate>
       
-      <guid>https://ineszz.rbind.io/blog/2020/primul-articol-scris-din-r/</guid>
+      <guid>/blog/2020/primul-articol-scris-din-r/</guid>
       <description>&lt;p&gt;Acesta este primul articol R. Vor urma mai multe.&lt;/p&gt;</description>
     </item>
     
