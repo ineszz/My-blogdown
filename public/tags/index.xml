@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Statisticile lui Ines</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>haven</title>
+      <link>/tags/haven/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/haven/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recode</title>
+      <link>/tags/recode/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/recode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SPSS</title>
+      <link>/tags/spss/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/spss/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>caret</title>

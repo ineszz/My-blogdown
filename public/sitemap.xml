@@ -3,13 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/2020/awesome-r-blogs/</loc>
+    <loc>/blog/2020/07/05/awesome-r-blogs/</loc>
     <lastmod>2020-07-05T19:44:32+05:30</lastmod>
   </url>
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2020/11/21/cum-sa-citesti-fisiere-spss-in-r/</loc>
+    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/haven/</loc>
+    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/recode/</loc>
+    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/spss/</loc>
+    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,7 +48,7 @@
   </url>
   
   <url>
-    <loc>/blog/2020/cum-construiesti-un-model-in-r/</loc>
+    <loc>/blog/2020/09/06/cum-construiesti-un-model-in-r/</loc>
     <lastmod>2020-09-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,27 +63,17 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/2020/un-ritual-de-blogging-saptamanal/</loc>
+    <loc>/blog/2020/08/12/un-ritual-de-blogging-saptamanal/</loc>
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2020/retrospectiva-primului-an-r-ladies-bucharest/</loc>
+    <loc>/blog/2020/07/30/retrospectiva-primului-an-r-ladies-bucharest/</loc>
     <lastmod>2020-07-30T00:06:32+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2020/primul-articol-scris-din-r/</loc>
+    <loc>/blog/2020/07/04/primul-articol-scris-din-r/</loc>
     <lastmod>2020-07-04T18:25:22+05:30</lastmod>
   </url>
   

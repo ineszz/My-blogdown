@@ -1,6 +1,10 @@
 {
-    "path": "~/GitHub/ineszz.github.io/public",
+    "path": "~/GitHub/ineszz.github.io/content/blog",
     "sortOrder": [
+        {
+            "columnIndex": 4,
+            "ascending": false
+        },
         {
             "columnIndex": 3,
             "ascending": false

@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Awesome R Blog&#39;s</title>
+<title>Cum construiesti un model in R</title>
 <meta name="description" content="&lt;Numbers have an important story to tell. However, they rely on you to give them a clear and convincing voice.&gt; ~ Stephen Few">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -115,26 +115,33 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>Awesome R Blog&#39;s</h1>
-         <p>Cateva din blogurile care imi plac, unele sunt realizate cu R Blogdown.</p>
-<p>Printre primele bloguri R descoperite.</p>
-<ol>
-<li><a href="https://alison.rbind.io/">https://alison.rbind.io/</a></li>
-<li><a href="http://www.rebeccabarter.com/">http://www.rebeccabarter.com/</a></li>
-<li><a href="https://juliasilge.com/">https://juliasilge.com/</a></li>
-<li><a href="https://ivelasq.rbind.io/">https://ivelasq.rbind.io/</a></li>
-<li><a href="https://jennybryan.org/">https://jennybryan.org/</a></li>
-<li><a href="https://masalmon.eu/">https://masalmon.eu/</a></li>
-<li><a href="https://yabellini.netlify.app/">https://yabellini.netlify.app/</a></li>
-<li><a href="https://drmowinckels.io/">https://drmowinckels.io/</a></li>
-<li><a href="https://www.frick.ws/">https://www.frick.ws/</a></li>
-<li><a href="http://www2.stat.duke.edu/~mc301/">http://www2.stat.duke.edu/~mc301/</a></li>
-<li><a href="https://amber.rbind.io/">https://amber.rbind.io/</a></li>
-<li><a href="https://thescienceofdating.rbind.io/">https://thescienceofdating.rbind.io/</a></li>
-</ol>
+         <h1>Cum construiesti un model in R</h1>
+         <p>Un model in R se construieste similar oricarei alte tehnologii, desigur, cu mici specificitati datorate limbajului.</p>
+<p>In primul rand, avem nevoie sa incarcam in memorie librariile care includ tehnicile si algoritmii utili realizarii unui model. 
+Pentru acest articol, voi folosi un exemplu simplu in care voi apela datele din datesetul iris si librariile caret, ggplot.</p>
 <blockquote>
-<p>To be continued</p>
+<p>Daca doriti sa folositi alt, dataset apelati in consola 
+<code>data()</code></p>
 </blockquote>
+<pre><code class="language-{r}" data-lang="{r}"># Incarcam librariile
+library(ggplot2)
+library(caret)
+</code></pre><pre><code class="language-{r}" data-lang="{r}">data(&quot;iris&quot;)
+str(iris)
+</code></pre><p>Hai sa construim un model</p>
+<p>Incercam sa estimam latimea petalelor folosind lungimea lor</p>
+<pre><code class="language-{r}" data-lang="{r}">model &lt;- lm(Petal.Length ~ Petal.Width, data = iris)
+</code></pre><p>Sa vizualizam modelul</p>
+<pre><code class="language-{r}" data-lang="{r}">ggplot(data = iris, aes(x = Petal.Width, y = Petal.Length)) + geom_point(aes(color = Species)) + stat_smooth(method = &quot;lm&quot;)
+</code></pre><p>Salvam modelul folosind saveRDS</p>
+<pre><code class="language-{r}" data-lang="{r}">saveRDS(model, &quot;model_iris.RDS&quot;)
+</code></pre><p>Acum putem citi modelul direct din fisier, salvand timpul pentru pregatirea modelului</p>
+<pre><code class="language-{r}" data-lang="{r}">model_salvat &lt;- readRDS(&quot;model_iris.RDS&quot;)
+</code></pre><p>Putem verifica, prin comparatie, daca modelul salvat este similar celui construit.</p>
+<pre><code class="language-{r}" data-lang="{r}">print(model$coefficients)
+print(model_salvat$coefficients)
+</code></pre><p>The end.</p>
+
          
       </div>
     </div>
