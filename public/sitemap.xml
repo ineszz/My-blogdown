@@ -3,87 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/2020/07/05/awesome-r-blogs/</loc>
+    <loc>https://ineszz.rbind.io/blog/2020/07/05/awesome-r-blogs/</loc>
     <lastmod>2020-07-05T19:44:32+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/2020/11/21/cum-sa-citesti-fisiere-spss-in-r/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/haven/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/recode/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/spss/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/caret/</loc>
-    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/2020/09/06/cum-construiesti-un-model-in-r/</loc>
-    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/model/</loc>
-    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/saverds/</loc>
-    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/2020/08/12/un-ritual-de-blogging-saptamanal/</loc>
+    <loc>https://ineszz.rbind.io/blog/</loc>
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2020/07/30/retrospectiva-primului-an-r-ladies-bucharest/</loc>
-    <lastmod>2020-07-30T00:06:32+05:30</lastmod>
+    <loc>https://ineszz.rbind.io/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2020/07/04/primul-articol-scris-din-r/</loc>
+    <loc>https://ineszz.rbind.io/blog/2020/08/12/un-ritual-de-blogging-saptamanal/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ineszz.rbind.io/blog/2020/07/04/primul-articol-scris-din-r/</loc>
     <lastmod>2020-07-04T18:25:22+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://ineszz.rbind.io/about/</loc>
     <lastmod>2020-07-01T21:05:33+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://ineszz.rbind.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ineszz.rbind.io/tags/</loc>
   </url>
   
 </urlset>
