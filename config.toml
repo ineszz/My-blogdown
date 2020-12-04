@@ -25,7 +25,7 @@ enableEmoji = true
 # Rules to generate permanent links of your pages
 [permalinks]
     blog = "/:section/:year/:month/:day/:slug"
-
+#
     
   # Nav links in the side bar
   [[params.navlinks]]
