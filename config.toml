@@ -37,6 +37,10 @@ enableEmoji = true
   [[params.navlinks]]
   name = "About"
   url = "about/"
+  
+  [[params.navlinks]]
+  name = "Tags"
+  url = "tags/"
 
   [params.social]
 #  email         = "email@example.com"

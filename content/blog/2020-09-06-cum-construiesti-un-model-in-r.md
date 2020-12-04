@@ -1,13 +1,13 @@
 ---
+date: "2020-09-06T17:44:32+05:30"
 title: Cum construiesti un model in R
 author: ineszz
-date: '2020-09-06'
 tags:
   - model
   - caret
   - saveRDS
 slug: cum-construiesti-un-model-in-r
-draft: yes
+draft: false
 showonlyimage: yes
 image: img/portfolio/ModelR-icon1.jpg
 ---

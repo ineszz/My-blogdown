@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>saveRDS on Statisticile lui Ines</title>
-    <link>/tags/saverds/</link>
+    <link>https://ineszz.rbind.io/tags/saverds/</link>
     <description>Recent content in saveRDS on Statisticile lui Ines</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/saverds/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 06 Sep 2020 17:44:32 +0530</lastBuildDate><atom:link href="https://ineszz.rbind.io/tags/saverds/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cum construiesti un model in R</title>
-      <link>/blog/2020/09/06/cum-construiesti-un-model-in-r/</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      <link>https://ineszz.rbind.io/blog/2020/09/06/cum-construiesti-un-model-in-r/</link>
+      <pubDate>Sun, 06 Sep 2020 17:44:32 +0530</pubDate>
       
-      <guid>/blog/2020/09/06/cum-construiesti-un-model-in-r/</guid>
+      <guid>https://ineszz.rbind.io/blog/2020/09/06/cum-construiesti-un-model-in-r/</guid>
       <description>Un model in R se construieste similar oricarei alte tehnologii, desigur, cu mici specificitati datorate limbajului.
 In primul rand, avem nevoie sa incarcam in memorie librariile care includ tehnicile si algoritmii utili realizarii unui model. Pentru acest articol, voi folosi un exemplu simplu in care voi apela datele din datesetul iris si librariile caret, ggplot.
  Daca doriti sa folositi alt, dataset apelati in consola data()

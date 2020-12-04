@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SPSS on Statisticile lui Ines</title>
-    <link>/tags/spss/</link>
+    <link>https://ineszz.rbind.io/tags/spss/</link>
     <description>Recent content in SPSS on Statisticile lui Ines</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/spss/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 21 Nov 2020 15:44:32 +0530</lastBuildDate><atom:link href="https://ineszz.rbind.io/tags/spss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cum sa citesti fisiere SPSS in R</title>
-      <link>/blog/2020/11/21/cum-sa-citesti-fisiere-spss-in-r/</link>
-      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      <link>https://ineszz.rbind.io/blog/2020/11/21/cum-sa-citesti-fisiere-spss-in-r/</link>
+      <pubDate>Sat, 21 Nov 2020 15:44:32 +0530</pubDate>
       
-      <guid>/blog/2020/11/21/cum-sa-citesti-fisiere-spss-in-r/</guid>
+      <guid>https://ineszz.rbind.io/blog/2020/11/21/cum-sa-citesti-fisiere-spss-in-r/</guid>
       <description>Zilele trecute, o cunostiinta m-a intrebat ce face daca s-a blocat SPSS-ul si nu mai poate face recode la informatiile nou introduse.
  hmmm&amp;hellip;
  Primul gand a fost &amp;ldquo;Hai sa facem in R!&amp;rdquo; stiu un pachet care citeste fisiere din SPSS, chiar SAS, si l-as putea testa cu ocazia asta :-).

@@ -1,13 +1,13 @@
 ---
+date: "2020-11-21T15:44:32+05:30"
 title: Cum sa citesti fisiere SPSS in R
 author: ineszz
-date: '2020-11-21'
 tags:
   - SPSS
   - haven
   - recode
 slug: cum-sa-citesti-fisiere-spss-in-r
-draft: yes
+draft: false
 showonlyimage: yes
 image: img/portfolio/icon-spss-r.jpg
 ---

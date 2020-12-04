@@ -1,8 +1,8 @@
 ---
+date: "2020-07-30T00:06:32+05:30"
 title: Retrospectiva primului an R-Ladies Bucharest
 author: ''
-date: "2020-07-30T00:06:32+05:30"
-draft: True
+draft: false
 image: ""
 showonlyimage: false
 ---

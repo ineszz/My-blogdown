@@ -1,7 +1,6 @@
 ---
+date: "2020-08-12T00:06:32+05:30"
 title: Un ritual de blogging saptamanal
-author: ''
-date: '2020-08-12'
 draft: false
 image: ""
 showonlyimage: no
