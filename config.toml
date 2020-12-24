@@ -16,9 +16,9 @@ enableEmoji = true
   description = "<Numbers have an important story to tell. However, they rely on you to give them a clear and convincing voice.> ~ Stephen Few"
   copyright = "&copy;2020 ineszz"
   sidebarAbout = [
-    "Entuziasmata de date si tehnologie, curioasa si optimista. ",
-    "Scriu despre R si alte tehnologii.",
-    "Pareri personale.",
+    "Un blog in romana & engleza.",
+    "Sunt entuziasmata de date, inovatie si tehnologie.",
+    "Scriu despre R si alte tehnologii. Pareri personale.",
     "Locatie: Bucuresti." 
     ]
 
@@ -28,19 +28,15 @@ enableEmoji = true
 #
     
   # Nav links in the side bar
-  [[params.navlinks]]
+  [[params.navlinks]]  
   name = "Home"
   url = "blog/"
   home = true
-  
 
   [[params.navlinks]]
   name = "About"
   url = "about/"
-  
-  [[params.navlinks]]
-  name = "Tags"
-  url = "tags/"
+
 
   [params.social]
 #  email         = "email@example.com"
