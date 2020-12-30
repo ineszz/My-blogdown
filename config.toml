@@ -14,7 +14,7 @@ enableEmoji = true
   # Use custom.css for your custom styling
   style = "violet"
   description = "<Numbers have an important story to tell. However, they rely on you to give them a clear and convincing voice.> ~ Stephen Few"
-  copyright = "&copy;2020 ineszz"
+  copyright = "&copy; ineszz 2020 "
   sidebarAbout = [
     "Un blog in romana & engleza.",
     "Sunt entuziasmata de date, inovatie si tehnologie.",
