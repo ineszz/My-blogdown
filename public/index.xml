@@ -6,7 +6,7 @@
     <description>Recent content on Statisticile lui Ines</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2020 15:44:32 +0530</lastBuildDate><atom:link href="https://ineszz.rbind.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 15:44:32 +0530</lastBuildDate><atom:link href="https://ineszz.rbind.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Awesome R Blog&#39;s</title>
       <link>https://ineszz.rbind.io/blog/2020/07/05/awesome-r-blogs/</link>
@@ -14,6 +14,15 @@
       
       <guid>https://ineszz.rbind.io/blog/2020/07/05/awesome-r-blogs/</guid>
       <description>&lt;p&gt;Cateva din blogurile care imi plac, unele sunt realizate cu R Blogdown.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cum sa folosesti git</title>
+      <link>https://ineszz.rbind.io/blog/2020/12/30/cum-sa-folosesti-git/</link>
+      <pubDate>Wed, 30 Dec 2020 15:44:32 +0530</pubDate>
+      
+      <guid>https://ineszz.rbind.io/blog/2020/12/30/cum-sa-folosesti-git/</guid>
+      <description>&lt;p&gt;Git este un sistem de mentinere a versionarii codului lucrat. Util in colaborarea pe proiecte de coding folosind Github sau Gitlab. Acesta ajuta la eliminarea riscurilor pierderii codului salvat in anumite etape.&lt;/p&gt;</description>
     </item>
     
     <item>

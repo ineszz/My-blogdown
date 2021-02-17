@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Despre</title>
+<title>Cum sa folosesti git</title>
 <meta name="description" content="&lt;Numbers have an important story to tell. However, they rely on you to give them a clear and convincing voice.&gt; ~ Stephen Few">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -28,8 +28,6 @@
 
 <link href="https://ineszz.rbind.io/css/custom.css" rel="stylesheet">
 <link rel="shortcut icon" href="https://ineszz.rbind.io/img/favicon.png">
-
-  <link href="https://ineszz.rbind.io/about/index.xml" rel="alternate" type="application/rss+xml" title="Statisticile lui Ines" />
 
 
 <script type="application/javascript">
@@ -118,16 +116,44 @@ and ported by <a href="https://github.com/kishaningithub">Kishan B</a>
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>Despre</h1>
-         <p>In urma <a href="https://www.meetup.com/rladies-bucharest/events/271020664/">intalnirii 10</a> a comunitatii R-Ladies Bucharest, m-am hotarat sa scriu un blog. Acesta va fi un blog cu notite personale, pareri independente de activitatile mele profesionale (sau angajator).</p>
-<h4 id="cateva-lucruri">Cateva lucruri</h4>
+         <h1>Cum sa folosesti git</h1>
+         <p>Git este un sistem de mentinere a versionarii codului lucrat. Util in colaborarea pe proiecte de coding folosind Github sau Gitlab. Acesta ajuta la eliminarea riscurilor pierderii codului salvat in anumite etape.</p>
+<p>Primul pas in folosirea <strong>git</strong> : <a href="https://git-scm.com/downloads">download</a>.
+<!-- raw HTML omitted -->Ulterior, trebuie configurat pentru a putea fi utilizat. 
+Pentru asta este nevoie de o interfata GitBash care se instaleaza o data cu downloadul anterior, in care sa putem introduce un utilizator, al vostru, si o adresa de email:</p>
+<pre><code>git config --global user.name &quot;Jane Doe&quot;
+git config --global user.email &quot;jane.doe@somewhere.com&quot;
+</code></pre><p>Imediat ce am facut pasii anterior, restartam R Studio pentru ca IDE-ul nostru sa identifice git. Daca totusi, nu apare, el poate fi activat folosind calea: <strong>Tools -&gt; Options -&gt; GIT/SVN</strong>.</p>
+<p>Cele mai intalnite situatii in folosirea curenta:</p>
 <ul>
-<li>Data Scientist. Ma poti intreba de R sau alte tehnologii ca SAS, Excel, Google stack (GA360, Big Query, Data Studio). Acum invat si python :-).</li>
-<li>Autor de curs <a href="https://www.telacad.ro/cursuri/nou-curs-excel-fundamentals/">Excel Fundamentals</a> si <a href="https://www.telacad.ro/cursuri/curs-excel-intermediate/">Excel Intermediate</a></li>
-<li>Mentor <a href="https://scratch.mit.edu/users/ineszz/">Scratch</a></li>
-<li>Voluntar in proiecte care promoveaza roluri ce implica analiza datelor, diversitatea si incluziunea.</li>
+<li>initializarea <strong>git</strong>;</li>
+<li>setarea unui director specific</li>
+<li>activitatea curenta pe un director existent.</li>
 </ul>
+<p>Initializarea unui director</p>
+<pre><code>cd ~/director-examplu
+git init
+</code></pre><p>Acest lucru se poate face si folosind un IDE, de exemplu R Studio.
+Imediat ce director a fost initializat, vom putea continua cu commit-uri, push-uri si pull-uri pentru sincronizarea proiectului la anumite momente in care se salveaza codul.</p>
+<p>Alte comenzi utile:</p>
+<pre><code>pwd: verific in ce director este activ git
+cd: change directory
+git status : verific status
+rm -rf .git : sterg directorul cu git
+git remote add origin https://github.com/ineszz/blog.git: adaug directorului local un director github
 
+git commit -m &quot;your comment&quot; : initializez salvarea versiunii
+git push -u origin master : trimit catre baza versiunea salvata
+</code></pre><p>Un flow uzual:</p>
+<pre><code>git add folder/
+git commit -m &quot;notes&quot;
+git push
+</code></pre><p>Un flow pentru un folder existent:</p>
+<pre><code>git remote add origin https://github.com/ineszz/blog.git
+git branch -M main
+git push -u origin main
+</code></pre><p>Daca notitele mele sunt incomplete, ajuta-ma, fie direct pe github, fie scrie-mi💌😊. Imi poti scrie si daca ti-a placut ! 😉</p>
+         
       </div>
     </div>
   </div>
