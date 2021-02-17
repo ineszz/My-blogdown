@@ -24,5 +24,6 @@ Printre primele bloguri R descoperite.
  10. http://www2.stat.duke.edu/~mc301/
  11. https://amber.rbind.io/
  12. https://thescienceofdating.rbind.io/
+ 13. https://frie.codes/
 
 > To be continued
