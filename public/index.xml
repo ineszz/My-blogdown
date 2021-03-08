@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Privacy Policy</title>
+      <link>https://ineszz.rbind.io/privacy/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://ineszz.rbind.io/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cum sa folosesti git</title>
       <link>https://ineszz.rbind.io/blog/2020/12/30/cum-sa-folosesti-git/</link>
       <pubDate>Wed, 30 Dec 2020 15:44:32 +0530</pubDate>
@@ -74,6 +83,17 @@ In primul rand, avem nevoie sa incarcam in memorie librariile care includ tehnic
       
       <guid>https://ineszz.rbind.io/blog/2020/07/04/primul-articol-scris-din-r/</guid>
       <description>&lt;p&gt;Acesta este primul articol R. Vor urma mai multe.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to count in R dplyr</title>
+      <link>https://ineszz.rbind.io/blog/2020/03/07/count-in-r-dplyr/</link>
+      <pubDate>Sat, 07 Mar 2020 15:44:32 +0530</pubDate>
+      
+      <guid>https://ineszz.rbind.io/blog/2020/03/07/count-in-r-dplyr/</guid>
+      <description>I decided to explore some common functions from tidyverse ecosystem in an attempt to start participating in the #tidytuesday.
+count verb is one of the most used functions I noticed in most of the participants scripts. Coming from an SQL/SAS background to R, I usually either think in plain SQL counts or proc freq&amp;rsquo;s for counting.
+In R, I discovered the dplyr and in my first attempts I&amp;rsquo;ve always used the SQL mindset: group_by, then summarize.</description>
     </item>
     
   </channel>
