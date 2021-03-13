@@ -4,7 +4,6 @@ draft: false
 showonlyimage: false
 image: "img/portfolio/AwesomeR-icon1.jpg"
 title: Awesome R Blog's
-weight: 2
 ---
 
 Cateva din blogurile care imi plac, unele sunt realizate cu R Blogdown.

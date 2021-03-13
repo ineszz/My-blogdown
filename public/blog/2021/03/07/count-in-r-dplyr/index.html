@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>dplyr</title>
+<title>How to count in R dplyr</title>
 <meta name="description" content="&lt;Numbers have an important story to tell. However, they rely on you to give them a clear and convincing voice.&gt; ~ Stephen Few">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -28,8 +28,6 @@
 
 <link href="https://ineszz.rbind.io/css/custom.css" rel="stylesheet">
 <link rel="shortcut icon" href="https://ineszz.rbind.io/img/favicon.png">
-
-  <link href="https://ineszz.rbind.io/tags/dplyr/index.xml" rel="alternate" type="application/rss+xml" title="Statisticile lui Ines" />
 
 
 <script type="application/javascript">
@@ -109,39 +107,39 @@ and ported by <a href="https://github.com/kishaningithub">Kishan B</a>
 </div>
 
               
-  <div class="col-xs-12 col-sm-8 col-md-9 content-column">
-    <div class="small-navbar visible-xs">
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
   <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
   <h1 class="small-navbar-heading"><a href="https://ineszz.rbind.io/">Statisticile lui Ines</a></h1>
 </div>
 
-    <div class="grid">
-        <div class="row">
-          
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
-                      
-                      
-                      <div class="box-masonry-text">
-                      
-                          <h4><a href="https://ineszz.rbind.io/blog/2021/03/07/count-in-r-dplyr/">How to count in R dplyr</a></h4>
-                          <div class="box-masonry-description">
-                            <p>
-                                
-                                  I decided to explore some common functions from tidyverse ecosystem in an attempt to start participating in the #tidytuesday.
-count verb is one of the most used functions I noticed in most of the participants scripts. Coming from an SQL/SAS background to R, I usually either think in plain SQL counts or proc freq&rsquo;s for counting.
-In R, I discovered the dplyr and in my first attempts I&rsquo;ve always used the SQL mindset: group_by, then summarize.
-                                
-                            </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          
-        </div>
-    </div>
-</div>
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>How to count in R dplyr</h1>
+         <p>I decided to explore some common functions from tidyverse ecosystem in an attempt to start participating in the #tidytuesday.</p>
+<p><strong>count</strong> verb is one of the most used functions I noticed in most of the participants scripts. Coming from an SQL/SAS background to R, I usually either think in plain SQL counts or proc freq&rsquo;s for counting.</p>
+<p>In R, I discovered the dplyr and in my first attempts I&rsquo;ve always used the SQL mindset: group_by, then summarize.</p>
+<p>However, <strong>count()</strong> verb is quite easy to use. Let&rsquo;s deep dive the options:</p>
+<pre><code># basic count
+df %&gt;% count(column)
 
+# basic ordered count
+df %&gt;% count(column, sort = TRUE)
+
+# multiple groups ordered count
+df %&gt;% count(column1, column2, sort = TRUE)
+
+# counts on data cubes structure with wt option
+df %&gt;% count(column2, wt = freq)
+
+</code></pre><p>If you find my notes to be incomplete, help me via github or write me 💌😊. You can send me a message if you liked my post too! 😉</p>
+
+         
+      </div>
+    </div>
+  </div>
+</div>
 
           </div>
       </div>

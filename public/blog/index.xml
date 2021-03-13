@@ -6,14 +6,16 @@
     <description>Recent content on Statisticile lui Ines</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Dec 2020 15:44:32 +0530</lastBuildDate><atom:link href="https://ineszz.rbind.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Mar 2021 15:44:32 +0530</lastBuildDate><atom:link href="https://ineszz.rbind.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Awesome R Blog&#39;s</title>
-      <link>https://ineszz.rbind.io/blog/2020/07/05/awesome-r-blogs/</link>
-      <pubDate>Sun, 05 Jul 2020 19:44:32 +0530</pubDate>
+      <title>How to count in R dplyr</title>
+      <link>https://ineszz.rbind.io/blog/2021/03/07/count-in-r-dplyr/</link>
+      <pubDate>Sun, 07 Mar 2021 15:44:32 +0530</pubDate>
       
-      <guid>https://ineszz.rbind.io/blog/2020/07/05/awesome-r-blogs/</guid>
-      <description>&lt;p&gt;Cateva din blogurile care imi plac, unele sunt realizate cu R Blogdown.&lt;/p&gt;</description>
+      <guid>https://ineszz.rbind.io/blog/2021/03/07/count-in-r-dplyr/</guid>
+      <description>I decided to explore some common functions from tidyverse ecosystem in an attempt to start participating in the #tidytuesday.
+count verb is one of the most used functions I noticed in most of the participants scripts. Coming from an SQL/SAS background to R, I usually either think in plain SQL counts or proc freq&amp;rsquo;s for counting.
+In R, I discovered the dplyr and in my first attempts I&amp;rsquo;ve always used the SQL mindset: group_by, then summarize.</description>
     </item>
     
     <item>
@@ -68,23 +70,21 @@ In primul rand, avem nevoie sa incarcam in memorie librariile care includ tehnic
     </item>
     
     <item>
+      <title>Awesome R Blog&#39;s</title>
+      <link>https://ineszz.rbind.io/blog/2020/07/05/awesome-r-blogs/</link>
+      <pubDate>Sun, 05 Jul 2020 19:44:32 +0530</pubDate>
+      
+      <guid>https://ineszz.rbind.io/blog/2020/07/05/awesome-r-blogs/</guid>
+      <description>&lt;p&gt;Cateva din blogurile care imi plac, unele sunt realizate cu R Blogdown.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Primul articol scris din R</title>
       <link>https://ineszz.rbind.io/blog/2020/07/04/primul-articol-scris-din-r/</link>
       <pubDate>Sat, 04 Jul 2020 18:25:22 +0530</pubDate>
       
       <guid>https://ineszz.rbind.io/blog/2020/07/04/primul-articol-scris-din-r/</guid>
       <description>&lt;p&gt;Acesta este primul articol R. Vor urma mai multe.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>How to count in R dplyr</title>
-      <link>https://ineszz.rbind.io/blog/2020/03/07/count-in-r-dplyr/</link>
-      <pubDate>Sat, 07 Mar 2020 15:44:32 +0530</pubDate>
-      
-      <guid>https://ineszz.rbind.io/blog/2020/03/07/count-in-r-dplyr/</guid>
-      <description>I decided to explore some common functions from tidyverse ecosystem in an attempt to start participating in the #tidytuesday.
-count verb is one of the most used functions I noticed in most of the participants scripts. Coming from an SQL/SAS background to R, I usually either think in plain SQL counts or proc freq&amp;rsquo;s for counting.
-In R, I discovered the dplyr and in my first attempts I&amp;rsquo;ve always used the SQL mindset: group_by, then summarize.</description>
     </item>
     
   </channel>
