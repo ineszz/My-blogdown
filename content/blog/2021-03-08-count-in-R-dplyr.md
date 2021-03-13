@@ -14,7 +14,7 @@ showonlyimage: false
 
 I decided to explore some common functions from tidyverse ecosystem in an attempt to start participating in the #tidytuesday. 
 
-**count** verb is one of the most used functions I noticed in most of the participants scripts. Coming from an SQL/SAS background to R, I usually either think in plain SQL counts or proc freq's for counting. 
+**count** verb is one of the most used functions I noticed in most of the participants scripts. Coming from an SQL/SAS background to R, I usually either think in plain SQL counts or proc freq's for counting. <!--more-->
 
 In R, I discovered the dplyr and in my first attempts I've always used the SQL mindset: group_by, then summarize.
 
