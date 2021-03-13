@@ -6,7 +6,16 @@
     <description>Recent content in dplyr on Statisticile lui Ines</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Mar 2021 15:44:32 +0530</lastBuildDate><atom:link href="https://ineszz.rbind.io/tags/dplyr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Mar 2021 15:44:32 +0530</lastBuildDate><atom:link href="https://ineszz.rbind.io/tags/dplyr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to tally in R dplyr</title>
+      <link>https://ineszz.rbind.io/blog/2021/03/13/tally-in-r-dplyr/</link>
+      <pubDate>Sat, 13 Mar 2021 15:44:32 +0530</pubDate>
+      
+      <guid>https://ineszz.rbind.io/blog/2021/03/13/tally-in-r-dplyr/</guid>
+      <description>&lt;p&gt;I decided to explore some common functions from tidyverse ecosystem in an attempt to start participating in the #tidytuesday.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>How to count in R dplyr</title>
       <link>https://ineszz.rbind.io/blog/2021/03/07/count-in-r-dplyr/</link>
