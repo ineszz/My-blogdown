@@ -9,98 +9,99 @@
     <lastBuildDate>Sat, 13 Mar 2021 15:44:32 +0530</lastBuildDate><atom:link href="https://ineszz.rbind.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to tally in R dplyr</title>
-      <link>https://ineszz.rbind.io/blog/2021/03/13/tally-in-r-dplyr/</link>
+      <link>https://ineszz.rbind.io/posts/tally-in-r-dplyr/2021/03/13/</link>
       <pubDate>Sat, 13 Mar 2021 15:44:32 +0530</pubDate>
       
-      <guid>https://ineszz.rbind.io/blog/2021/03/13/tally-in-r-dplyr/</guid>
+      <guid>https://ineszz.rbind.io/posts/tally-in-r-dplyr/2021/03/13/</guid>
       <description>&lt;p&gt;I decided to explore some common functions from tidyverse ecosystem in an attempt to start participating in the #tidytuesday.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>How to count in R dplyr</title>
-      <link>https://ineszz.rbind.io/blog/2021/03/07/count-in-r-dplyr/</link>
+      <link>https://ineszz.rbind.io/posts/count-in-r-dplyr/2021/03/07/</link>
       <pubDate>Sun, 07 Mar 2021 15:44:32 +0530</pubDate>
       
-      <guid>https://ineszz.rbind.io/blog/2021/03/07/count-in-r-dplyr/</guid>
+      <guid>https://ineszz.rbind.io/posts/count-in-r-dplyr/2021/03/07/</guid>
       <description>&lt;p&gt;I decided to explore some common functions from tidyverse ecosystem in an attempt to start participating in the #tidytuesday.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;count&lt;/strong&gt; verb is one of the most used functions I noticed in most of the participants scripts. Coming from an SQL/SAS background to R, I usually either think in plain SQL counts or proc freq&amp;rsquo;s for counting.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Privacy Policy</title>
-      <link>https://ineszz.rbind.io/privacy/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0200</pubDate>
-      
-      <guid>https://ineszz.rbind.io/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Cum sa folosesti git</title>
-      <link>https://ineszz.rbind.io/blog/2020/12/30/cum-sa-folosesti-git/</link>
+      <link>https://ineszz.rbind.io/posts/cum-sa-folosesti-git/2020/12/30/</link>
       <pubDate>Wed, 30 Dec 2020 15:44:32 +0530</pubDate>
       
-      <guid>https://ineszz.rbind.io/blog/2020/12/30/cum-sa-folosesti-git/</guid>
+      <guid>https://ineszz.rbind.io/posts/cum-sa-folosesti-git/2020/12/30/</guid>
       <description>&lt;p&gt;Git este un sistem de mentinere a versionarii codului lucrat. Util in colaborarea pe proiecte de coding folosind Github sau Gitlab. Acesta ajuta la eliminarea riscurilor pierderii codului salvat in anumite etape.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Cum sa citesti fisiere SPSS in R</title>
-      <link>https://ineszz.rbind.io/blog/2020/11/21/cum-sa-citesti-fisiere-spss-in-r/</link>
+      <link>https://ineszz.rbind.io/posts/cum-sa-citesti-fisiere-spss-in-r/2020/11/21/</link>
       <pubDate>Sat, 21 Nov 2020 15:44:32 +0530</pubDate>
       
-      <guid>https://ineszz.rbind.io/blog/2020/11/21/cum-sa-citesti-fisiere-spss-in-r/</guid>
+      <guid>https://ineszz.rbind.io/posts/cum-sa-citesti-fisiere-spss-in-r/2020/11/21/</guid>
       <description>Zilele trecute, o cunostiinta m-a intrebat ce face daca s-a blocat SPSS-ul si nu mai poate face recode la informatiile nou introduse.
  hmmm&amp;hellip;
  Primul gand a fost &amp;ldquo;Hai sa facem in R!&amp;rdquo; stiu un pachet care citeste fisiere din SPSS, chiar SAS, si l-as putea testa cu ocazia asta :-).
-Pana sa se hotarasca cum va proceda, am deschis helpul pachetului haven si am gasit cum sa citesc un fisier SPSS.</description>
+Pana sa se hotarasca cum va proceda, am deschis helpul pachetului haven  si am gasit cum sa citesc un fisier SPSS.</description>
     </item>
     
     <item>
       <title>Cum construiesti un model in R</title>
-      <link>https://ineszz.rbind.io/blog/2020/09/06/cum-construiesti-un-model-in-r/</link>
+      <link>https://ineszz.rbind.io/posts/cum-construiesti-un-model-in-r/2020/09/06/</link>
       <pubDate>Sun, 06 Sep 2020 17:44:32 +0530</pubDate>
       
-      <guid>https://ineszz.rbind.io/blog/2020/09/06/cum-construiesti-un-model-in-r/</guid>
+      <guid>https://ineszz.rbind.io/posts/cum-construiesti-un-model-in-r/2020/09/06/</guid>
       <description>Un model in R se construieste similar oricarei alte tehnologii, desigur, cu mici specificitati datorate limbajului.
 In primul rand, avem nevoie sa incarcam in memorie librariile care includ tehnicile si algoritmii utili realizarii unui model. Pentru acest articol, voi folosi un exemplu simplu in care voi apela datele din datesetul iris si librariile caret, ggplot.
  Daca doriti sa folositi alt, dataset apelati in consola data()
- # Incarcam librariilelibrary(ggplot2)library(caret)data(&amp;quot;iris&amp;quot;)str(iris)Hai sa construim un model</description>
+ # Incarcam librariile library(ggplot2) library(caret) data(&amp;#34;iris&amp;#34;) str(iris) Hai sa construim un model</description>
     </item>
     
     <item>
       <title>Un ritual de blogging saptamanal</title>
-      <link>https://ineszz.rbind.io/blog/2020/08/12/un-ritual-de-blogging-saptamanal/</link>
+      <link>https://ineszz.rbind.io/posts/un-ritual-de-blogging-saptamanal/2020/08/12/</link>
       <pubDate>Wed, 12 Aug 2020 00:06:32 +0530</pubDate>
       
-      <guid>https://ineszz.rbind.io/blog/2020/08/12/un-ritual-de-blogging-saptamanal/</guid>
+      <guid>https://ineszz.rbind.io/posts/un-ritual-de-blogging-saptamanal/2020/08/12/</guid>
       <description>&lt;p&gt;De cativa ani, imi propun sa-mi acord timp si sa incep sa scriu lucruri interesante. Pentru ca de multe ori mi s-a spus, intr-o forma sau alta, &amp;ldquo;ah, da, tu postai niste chestii foarte interesante pe Linkedin&amp;rdquo;, mi-am propus sa procrestinez mai putin despre acest obicei si sa incep sa fac ceva in legatura cu el.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Retrospectiva primului an R-Ladies Bucharest</title>
-      <link>https://ineszz.rbind.io/blog/2020/07/30/retrospectiva-primului-an-r-ladies-bucharest/</link>
+      <link>https://ineszz.rbind.io/posts/retrospectiva-primului-an-r-ladies-bucharest/2020/07/30/</link>
       <pubDate>Thu, 30 Jul 2020 00:06:32 +0530</pubDate>
       
-      <guid>https://ineszz.rbind.io/blog/2020/07/30/retrospectiva-primului-an-r-ladies-bucharest/</guid>
-      <description>&lt;p&gt;S-a incheiat sezonul 2019/2020 de intalniri &lt;a href=&#34;https://www.meetup.com/rladies-bucharest/&#34;&gt;R-Ladies&lt;/a&gt; in Bucuresti. Scriem azi retrospectiva pentru a porni la drum in sezonul urmatorul.&lt;/p&gt;</description>
+      <guid>https://ineszz.rbind.io/posts/retrospectiva-primului-an-r-ladies-bucharest/2020/07/30/</guid>
+      <description>&lt;p&gt;S-a incheiat sezonul 2019/2020 de intalniri &lt;a 
+    href=&#34;https://www.meetup.com/rladies-bucharest/&#34;
+    
+    
+     
+      target=&#34;_blank&#34; 
+      rel=&#34;noopener&#34;
+    
+&gt;
+    R-Ladies
+&lt;/a&gt; in Bucuresti. Scriem azi retrospectiva pentru a porni la drum in sezonul urmatorul.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Awesome R Blog&#39;s</title>
-      <link>https://ineszz.rbind.io/blog/2020/07/05/awesome-r-blogs/</link>
+      <link>https://ineszz.rbind.io/posts/awesome-r-blogs/2020/07/05/</link>
       <pubDate>Sun, 05 Jul 2020 19:44:32 +0530</pubDate>
       
-      <guid>https://ineszz.rbind.io/blog/2020/07/05/awesome-r-blogs/</guid>
+      <guid>https://ineszz.rbind.io/posts/awesome-r-blogs/2020/07/05/</guid>
       <description>&lt;p&gt;Cateva din blogurile care imi plac, unele sunt realizate cu R Blogdown.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Primul articol scris din R</title>
-      <link>https://ineszz.rbind.io/blog/2020/07/04/primul-articol-scris-din-r/</link>
+      <link>https://ineszz.rbind.io/posts/primul-articol-scris-din-r/2020/07/04/</link>
       <pubDate>Sat, 04 Jul 2020 18:25:22 +0530</pubDate>
       
-      <guid>https://ineszz.rbind.io/blog/2020/07/04/primul-articol-scris-din-r/</guid>
+      <guid>https://ineszz.rbind.io/posts/primul-articol-scris-din-r/2020/07/04/</guid>
       <description>&lt;p&gt;Acesta este primul articol R. Vor urma mai multe.&lt;/p&gt;</description>
     </item>
     

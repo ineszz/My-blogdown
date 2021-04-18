@@ -1,0 +1,35 @@
+baseURL: https://ineszz.rbind.io/
+#baseURL: /
+languageCode: en-us
+title: Statisticile lui Ines
+theme: hugo-theme-mini
+paginate: 3
+#themesDir: ../../
+enableEmoji: true
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
+hasCJKLanguage: true
+permalinks:
+  posts: /posts/:slug/:year/:month/:day
+googleAnalytics: UA-138947404-1
+disqusShortname: 
+markup:
+  highlight:
+    guessSyntax: true
+    style: emacs
+social:
+  github: https://github.com/ineszz
+  twitter: https://www.twitter.com/inesz
+params:
+  author: inesz
+  bio: data enthusiast
+  description: Numbers have an important story to tell. However, they rely on you to give them a clear and convincing voice. Stephen Few
+  enableRSS: true
+  enableComments: true
+  enableGoogleAnalytics: true
+  copyright: 'ineszz ❤️ 2020-2021'
+
